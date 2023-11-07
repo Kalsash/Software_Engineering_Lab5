@@ -6,8 +6,6 @@ using namespace std;
 
 const int INF = 1e9;
 
-
-
 int tsp(vector<vector<int>>& graph, int start) {
     int n = graph.size();
     vector<int> vertices;
